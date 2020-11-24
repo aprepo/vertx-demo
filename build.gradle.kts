@@ -12,7 +12,7 @@ version = "1.0.0-SNAPSHOT"
 
 repositories {
   maven {
-    url "https://oss.sonatype.org/content/repositories/snapshots"
+    url = uri("https://oss.sonatype.org/content/repositories/snapshots")
     mavenContent {
       snapshotsOnly()
     }
